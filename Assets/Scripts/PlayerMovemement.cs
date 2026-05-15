@@ -21,8 +21,8 @@ public class PlayerMovemement : MonoBehaviour
     public float walkSpeed ;
     public float rotateSpeed ;
     public float jumpSpeed ;
-    
-    private float groundCheckDistance = 0.6f;
+    // Ground distance check for jumping
+    private float groundCheckDistance = 0.1f;
     
     private void OnEnable()
     {

@@ -320,7 +320,6 @@ GameObject:
   - component: {fileID: 1016130285}
   - component: {fileID: 1016130284}
   - component: {fileID: 1016130283}
-  - component: {fileID: 1016130282}
   - component: {fileID: 1016130287}
   m_Layer: 0
   m_Name: Player
@@ -329,22 +328,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1016130282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1016130281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbabae15a533a4c158f302aa072a9d8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputActions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
-  walkSpeed: 20
-  rotateSpeed: 10
-  jumpSpeed: 10
 --- !u!136 &1016130283
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -445,7 +428,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016130281}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -462,7 +445,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 96
+  m_Constraints: 64
   m_CollisionDetection: 0
 --- !u!1 &1533760762
 GameObject:
